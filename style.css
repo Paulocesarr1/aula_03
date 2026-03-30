@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.box {
+    width: 260px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.paginacao {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.paginacao li a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    color: #007bff;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.normal li a:hover {
+}
+
+.hover li a:hover {
+    background-color: #e0e0e0;
+}
